@@ -1,0 +1,38 @@
+/* OPTIONS */
+.options select{
+margin:3px 6px;
+padding:4px 6px;
+border-radius:5px;
+border:1px solid #c5a880;
+font-size:14px;
+}
+
+/* QUANTITY SPINNER */
+.quantity{
+display:flex;
+align-items:center;
+justify-content:center;
+margin:6px 0;
+}
+.quantity button{
+width:28px;
+height:28px;
+border:none;
+border-radius:4px;
+background:#7a4e2d;
+color:white;
+cursor:pointer;
+font-size:18px;
+}
+.quantity button:hover{background:#5a3720;}
+.quantity .qty{
+width:50px;
+text-align:center;
+border:1px solid #c5a880;
+border-radius:5px;
+font-size:16px;
+margin:0 5px;
+}
+
+/* Make input readonly but still show value */
+.qty[readonly]{background:#f6f1ea;}
